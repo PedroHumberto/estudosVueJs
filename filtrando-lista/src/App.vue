@@ -19,7 +19,13 @@ export default {
     }
   },
   computed:{
-    listaComFiltro(){
+
+     listaComFiltro() { 
+        
+      return this.lista.filter(item => item.includes(this.filtro)) 
+       
+    }
+    /*listaComFiltro(){
       let valores = []
       valores = this.lista.filter((itens) => {
         return(
@@ -27,7 +33,7 @@ export default {
         )
       })
       return valores
-    }
+    } */
   /*listaComFiltro(){
       if(this.filtro){
         let exp = new RegExp(this.filtro.trim(), 'i'); //'i' insensitive, tanto faz maiusculo ou minusculo
