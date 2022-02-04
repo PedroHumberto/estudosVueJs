@@ -58,5 +58,17 @@ Seu papel é permitir reusar os atributos em outros componentes como: Filters, m
 Estabelecendo uma especia de herança.
 
 No exemplo é adotada a ideia de que no blog todas as postanges devem ter titulos upercase e negrito.
-Para não ficarmos criando filter em cada componente pode ser feito um componente responsavel pela ``<div>`` que conteria os bloco com as iformações das postagens principais com letras maiusculas.
+Para não ficarmos criando filter em cada componente pode ser feito um bloco de codigo responsavel pela codigo que conteria o codigo.
+
+
+Sendo assim é criado um arquivo ``postagem.js`` contendo o sequinte codigo:
+```javascript
+export default{
+    filters: {
+        maiusculo: (valor) =>{
+            return valor.toUpperCase()
+        }
+    }
+}
+```
 
