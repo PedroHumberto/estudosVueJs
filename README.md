@@ -72,3 +72,13 @@ export default{
 }
 ```
 
+---
+## Emit - Comunicação Entre Componentes
+
+Utilizado para comunicar a um componente que outro foi alterado. Fazendo com que um componente emita um sinal para outro, podendo enviar dados se necessário.
+
+<blockquote> 
+    O blog em que você tem um componente que filtra os posts que recebem mais curtidas. Então, o componente curtida deve notificar ao que filtra os posts mais curtidos que uma postagem teve mais um like, fazendo com que a lista de mais curtidas altere em tempo real
+</blockquote>
+
+O exemplo que é utilizado é um microchat onde quando a mensagem é digitada e termina ela é exivida na tela principal do projeto.
