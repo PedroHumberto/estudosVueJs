@@ -3,7 +3,9 @@
 ### Autor: Leonardo Vilarinho
 
 ---
-``Este repositorio foi feito com o intuito de acessar mais rapido dados repassados pelo livro, estarei resumindo alguns conhecimentos adquiridos durante a leitura.``
+<blockquote> 
+    Este repositorio foi feito com o intuito de acessar mais rapido dados repassados pelo livro, estarei resumindo alguns conhecimentos adquiridos durante a leitura.
+</blockquote> 
 
 ---
 
@@ -46,7 +48,9 @@ O atributo ``props`` de um componente é usado para receber dados externos.
 
 No exemplo usado é utilizado uma forma mais facil de ordenar e passar uma lista. Ao invés de iterar sobre uma lista e depois fazer um metodo para ordenar a lista, você pode passar o codigo direto utilizando o ``props``.
 
-``Atributo created() = é um metódo, assim que chamado no momento em que o componente é invocado e antes de ser desenhado na tela. Executado antes do metodo 'mounted()'``
+<blockquote> 
+    Atributo created() = é um metódo, assim que chamado no momento em que o componente é invocado e antes de ser desenhado na tela. Executado antes do metodo 'mounted()'
+</blockquote> 
 
 ---
 
