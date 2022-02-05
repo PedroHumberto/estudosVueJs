@@ -75,6 +75,8 @@ export default{
 ---
 ## Emit - Comunicação Entre Componentes
 
+[Exemplo de Uso](https://github.com/PedroHumberto/estudosVueJs/tree/master/emit/src)
+
 Utilizado para comunicar a um componente que outro foi alterado. Fazendo com que um componente emita um sinal para outro, podendo enviar dados se necessário.
 
 <blockquote> 
@@ -82,3 +84,5 @@ Utilizado para comunicar a um componente que outro foi alterado. Fazendo com que
 </blockquote>
 
 O exemplo que é utilizado é um microchat onde quando a mensagem é digitada e termina ela é exivida na tela principal do projeto.
+
+Este exemplo demostrar um componente filho ***LvUsuario.vue*** se comunicando com o componente pai ***App.vue***
