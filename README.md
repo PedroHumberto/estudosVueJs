@@ -1,6 +1,6 @@
 # Estudos Vue JS
 ## Estudos realizados atráves do livro Front-End Com Vue.js
-### Autor: Leonardo Vilarinho
+#### Autor: Leonardo Vilarinho
 
 ---
 <blockquote> 
@@ -90,3 +90,20 @@ Utilizado para comunicar a um componente que outro foi alterado. Fazendo com que
 O exemplo que é utilizado é um microchat onde quando a mensagem é digitada e termina ela é exivida na tela principal do projeto.
 
 Este exemplo demostrar um componente filho ***LvUsuario.vue*** se comunicando com o componente pai ***App.vue***
+
+---
+
+## Axios
+
+[Exemplo de Uso]()
+
+Utilizando Axios para retornar dados de um API. No exemplo esta sendo usado a do Github + Ron Swamson
+
+  **API** 
+  * http://ron-swanson-quotes.herokuapp.com/v2/quotes
+  * https://api.github.com/users/
+
+
+***The public GitHub API requests are limited to 60/hour/ip, like you observed. That's why you need authentication.***
+
+Como a API é limitada a 60 requisições sem se autenticar no servidor, você pode colocar a função dentro de um botão e realizar a requisição 1x a cada hora que digitar o nome, neste exemplo ela requisitada a cada letra digitada.
