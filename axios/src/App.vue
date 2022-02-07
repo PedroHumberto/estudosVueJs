@@ -24,6 +24,7 @@ export default {
   },
   created(){
     this.ronPhrases()
+    this.test()
   },
 
   watch:{
@@ -52,11 +53,12 @@ export default {
       this.phrases ='Loading Phrases'
       axios.get('http://ron-swanson-quotes.herokuapp.com/v2/quotes')
       .then(res => {
+       
         //console.log('Ron Phrases')
         //console.log(res)
         this.phrases = res.data[0]
       })
-    }
+    },
 
     
   },
