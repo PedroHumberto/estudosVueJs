@@ -95,7 +95,10 @@ Este exemplo demostrar um componente filho ***LvUsuario.vue*** se comunicando co
 
 ## Axios
 
-[Exemplo de Uso]()
+[Exemplo de Uso 1](https://github.com/PedroHumberto/estudosVueJs/blob/master/axios/src/App.vue)
+
+
+[Exemplo de Uso 2](https://github.com/PedroHumberto/estudosVueJs/tree/master/axios2)
 
 Utilizando Axios para retornar dados de um API. No exemplo esta sendo usado a do Github + Ron Swamson
 
