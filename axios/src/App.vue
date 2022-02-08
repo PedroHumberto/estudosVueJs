@@ -24,7 +24,6 @@ export default {
   },
   created(){
     this.ronPhrases()
-    this.test()
   },
 
   watch:{
